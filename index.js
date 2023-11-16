@@ -39,7 +39,7 @@ async function subscribeCalendarNotifications() {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        id: 'unique-channel-id',
+        id: NGROK_ID,
         type: 'web_hook',
         address: '/webhooks/google/notifications',
       }),
