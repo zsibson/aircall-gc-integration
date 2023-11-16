@@ -1,4 +1,4 @@
-// require('dotenv').config()
+require('dotenv').config()
 
 async function getCalendarList() {
     const url = 'https://www.googleapis.com/calendar/v3/users/me/calendarList';
